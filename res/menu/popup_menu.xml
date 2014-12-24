@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+			android:id="@+id/popup_vote_like"
+			android:title="Gefällt mir!"
+			android:showAsAction="ifRoom"/>
+
+	<item
+			android:id="@+id/popup_vote_dislike"
+			android:title="Gefällt mir nicht!"
+			android:showAsAction="ifRoom"/>
+
+	<item
+			android:id="@+id/popup_vote_delete"
+			android:title="Vote löschen!"
+			android:showAsAction="ifRoom"/>
+
+	<item
+			android:id="@+id/popup_play_now"
+			android:icon="@android:drawable/ic_media_play"
+			android:title="Jetzt abspielen"
+			android:showAsAction="ifRoom"/>
+
+	<item
+			android:id="@+id/popup_play_next"
+			android:icon="@android:drawable/ic_media_ff"
+			android:title="als nächstes"
+			android:showAsAction="ifRoom"/>
+
+
+
+</menu>
